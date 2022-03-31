@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <link rel="stylesheet" href="style.css" />
+</head>
+<link rel="stylesheet" href="style.css" />
 
-  <body>
+<body>
     <header class="header">
-      <div>
-        <img
-          class="trybewarts-header-logo"
-          src="/images/trybewarts-header-logo.svg"
-        />
-      </div>
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
-      <form action="" method="get" class="trybewarts-login">
-        <label for="email"> E-mail </label>
-        <input
-          required
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Email"
-        />
-        <input
-          required
-          type="password"
-          id="senha"
-          name="password"
-          placeholder="Senha"
-        />
-        <button id="btnHeader" type="submit">Entrar</button>
-      </form>
+        <div>
+            <img class="trybewarts-header-logo" src="/images/trybewarts-header-logo.svg" />
+        </div>
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form action="" method="get" class="trybewarts-login">
+            <label for="email"> E-mail </label>
+            <input required type="text" id="email" name="email" placeholder="Email" />
+            <input required type="password" id="senha" name="password" placeholder="Senha" />
+            <button id="btnHeader" type="submit">Entrar</button>
+        </form>
     </header>
     <main>
         <img id='trybewarts-forms-logo' src="/images/trybewarts-colored.svg">
         <form id="evaluation-form">
-            <input
-            required
-            type="text"
-            id="input-name"
-            name="nome"
-            placeholder="Nome"
-          />
-          <input
-            required
-            type="text"
-            id="input-lastname"
-            name="sobrenome"
-            placeholder="Sobrenome"
-          />
-          <input
-          required
-          type="text"
-          id="input-email"
-          name="email"
-          placeholder="Email"
-        />
-        <select id="house">
-            <option value="Gitnória" text="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option value="Reactpuff" text="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option value="Corvinode" text="Corvinode" id="corvinode-house">Corvinode</option>
-            <option value="Pytherina" text="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+            <div class="name-lastname">
+                <input required type="text" id="input-name" name="nome" placeholder="Nome" />
+                <input required type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome" />
+            </div>
+            <div class="email-house">
+                <input required type="text" id="input-email" name="email" placeholder="Email" />
+                <select id="house">
+                    <option value="Gitnória" text="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" text="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" text="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" text="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
+            <label id="label-family">Qual sua família?</label>
+            <label for="Frontend">
+                <input type="radio" id="Frontend" name="family" value="Frontend"> Frontend
+            </label>
+            <label>
+                <input type="radio" id="Backend" name="family" value="Backend"> Backend
+            </label>
+            <label>
+                <input type="radio" id="FullStack" name="family" value="FullStack"> FullStack
+            </label>
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <label>
+            <input type="checkbox" value="HoFs"> HoFs
+            </label>
+            <label>
+                <input type="checkbox" value="Jest"> Jest
+            </label>
+            <label>
+                <input type="checkbox" value="Promises"> Promises
+            </label>
+            <label>
+                <input type="checkbox" value="React"> React
+            </label>
+            <label>
+                <input type="checkbox" value="SQL"> SQL
+            </label>
+            <label>
+                <input type="checkbox" value="Python"> Python
+            </label>
         </form>
-        
+
     </main>
 
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>

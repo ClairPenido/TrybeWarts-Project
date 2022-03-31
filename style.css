@@ -52,3 +52,8 @@ main {
   align-self: flex-end;
   order: 2;
 }
+
+.name-lastname, .email-house {
+  display: flex;
+  flex-direction: row;
+}
