@@ -32,15 +32,15 @@ body {
 }
 
 #trybewarts-header-title {
- text-align: center;
+  text-align: center;
 }
 
 main {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
-#evaluation-form{
+#evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
