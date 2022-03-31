@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<link rel="stylesheet" href="style.css">
+  </head>
+  <link rel="stylesheet" href="style.css" />
 
-<body>
+  <body>
     <header class="header">
-        <div>
-            <img class="trybewarts-header-logo" src="/images/trybewarts-header-logo.svg">
-        </div>
-    </header>
-
-    <form action="" method="get" class="trybewarts-login">
+      <div>
+        <img
+          class="trybewarts-header-logo"
+          src="/images/trybewarts-header-logo.svg"
+        />
+      </div>
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form action="" method="get" class="trybewarts-login">
         <label for="email"> E-mail </label>
-        <input required type="text" id='email' name="email" placeholder="Email"> 
-        <input required type="password" id='senha' name="password" placeholder="Senha"> 
-        <button type="submit">Entrar</button>
-    </form>
+        <input
+          required
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          required
+          type="password"
+          id="senha"
+          name="password"
+          placeholder="Senha"
+        />
+        <button id="btnHeader" type="submit">Entrar</button>
+      </form>
+    </header>
+    <main>
+        <form id="evaluation-form">
+            
 
+        </form>
+    </main>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
