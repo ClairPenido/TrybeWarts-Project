@@ -1,6 +1,8 @@
 const inputEmail = document.getElementById('email');
 const inputSenha = document.getElementById('senha');
 const btnHeader = document.getElementById('btnHeader');
+const checkAcordo = document.getElementById('agreement');
+const btnEnviar = document.getElementById('submit-btn');
 
 // 3 Caso o email seja "tryber@teste.com" e a senha seja "123456" será emitido um alerta contendo o texto "Olá, Tryber!"
 // Em todos os outro casos deverá ser emitido um alerta contendo o texto "Email ou senha inválidos."
@@ -17,3 +19,10 @@ function verificaInput() {
 }
 
 btnHeader.addEventListener('click', verificaInput);
+function verificaAcordo() {
+  if (checkAcordo.checked) {
+    btnEnviar.removeAttribute('disabled');
+  }
+}
+
+checkAcordo.addEventListener('click', verificaAcordo);

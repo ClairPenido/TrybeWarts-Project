@@ -57,3 +57,16 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+/* https://stackoverflow.com/questions/5614399/disabling-submit-button-until-all-fields-have-values */
+/* input[type="submit"] {
+  background: #5cb85c;
+  color: #fff;
+  transition: background 600ms;
+  cursor: pointer;
+}
+
+input[type="submit"]:disabled {
+  background: #555;
+  cursor: not-allowed;
+} */
