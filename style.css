@@ -37,10 +37,18 @@ body {
 
 main {
   display: flex;
+  justify-content: space-between;
   
 }
 #evaluation-form{
   display: flex;
   flex-direction: column;
   width: 675px;
+  order: 1;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: flex-end;
+  order: 2;
 }
