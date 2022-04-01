@@ -21,7 +21,9 @@ function verificaInput() {
 btnHeader.addEventListener('click', verificaInput);
 function verificaAcordo() {
   if (checkAcordo.checked) {
-    btnEnviar.removeAttribute('disabled');
+    btnEnviar.disabled = false;
+  } else {
+    btnEnviar.disabled = true;
   }
 }
 

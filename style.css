@@ -4,12 +4,17 @@ body {
   box-sizing: border-box;
 }
 
+/* header */
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   flex-direction: row;
   padding: 10px;
   justify-content: space-between;
+}
+
+.logo-header-container {
+  display: flex;
 }
 
 .trybewarts-header-logo {
@@ -31,13 +36,31 @@ body {
   margin: 8px;
 }
 
-#trybewarts-header-title {
-  text-align: center;
+.trybewarts-login button {
+  border: none;
+  border-radius: 0.3em;
+  width: 120px;
+  padding: 5px;
+  margin: 8px;
+  color: white;
+  background-color: rgb(38, 42, 52);
+  cursor: pointer;
 }
 
+.trybewarts-login button:hover {
+  background-color: rgb(68, 70, 77);
+}
+
+#trybewarts-header-title {
+  text-align: center;
+  color: white;
+}
+
+/* main */
 main {
   display: flex;
   justify-content: space-between;
+  margin: 100px 100px 100px 100px;
 }
 
 #evaluation-form {
@@ -58,15 +81,10 @@ main {
   flex-direction: row;
 }
 
-/* https://stackoverflow.com/questions/5614399/disabling-submit-button-until-all-fields-have-values */
-/* input[type="submit"] {
-  background: #5cb85c;
-  color: #fff;
-  transition: background 600ms;
-  cursor: pointer;
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
 }
-
-input[type="submit"]:disabled {
-  background: #555;
-  cursor: not-allowed;
-} */
