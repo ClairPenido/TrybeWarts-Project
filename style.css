@@ -60,7 +60,7 @@ body {
 main {
   display: flex;
   justify-content: space-between;
-  margin: 100px 100px 100px 100px;
+  margin: 100px;
 }
 
 #evaluation-form {
@@ -85,6 +85,5 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  
+  align-items: flex-end;  
 }
