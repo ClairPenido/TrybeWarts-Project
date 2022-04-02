@@ -1,3 +1,4 @@
+/* falta: > fonte > background */
 body {
   padding: 0;
   margin: 0;
@@ -71,6 +72,9 @@ main {
   order: 1;
   background-color: beige;
   justify-content: space-around;
+  color: rgb(33, 99, 87);
+  border: 2px solid rgb(50, 167, 145);
+  border-radius: 0.5em;
 }
 
 #trybewarts-forms-logo {
@@ -85,26 +89,78 @@ main {
   padding-right: 20px;
 }
 
-.inputs-text-container [type='text'] {
+.inputs-text-container [ type = 'text' ] {
   padding: 5px;
   margin-left: 20px;
   margin-bottom: 10px;
   border: 1px solid rgb(50, 167, 145);
-  border-radius: 0.3em;  
+  border-radius: 0.3em;
 }
 
 .inputs-text-container #house {
-  padding: 5px 46px;
+  padding: 5px 50px;
   margin-left: 20px;
   margin-bottom: 10px;
   background-color: white;
   border: 1px solid rgb(50, 167, 145);
-  border-radius: 0.3em;  
+  border-radius: 0.3em;
+  color: rgb(39, 102, 91);
 }
 
 .name-lastname , .email-house {
   display: flex;
   flex-direction: row;
+}
+
+.family-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.learn-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.rate-container {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.textarea-container {
+  padding-left: 20px;
+}
+
+.textarea-container textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid rgb(50, 167, 145);
+  border-radius: 0.3em;
+  width: 380px;
+}
+
+.agreement-container {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.submit-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#submit-btn {
+  border: 1px solid rgb(50, 167, 145);
+  border-radius: 0.3em;
+  width: 92%;
+  margin-bottom: 20px;
+  padding: 5px 0;
 }
 
 /* footer */
