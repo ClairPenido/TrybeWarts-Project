@@ -60,7 +60,7 @@ body {
 main {
   display: flex;
   justify-content: space-between;
-  margin: 100px 200px;
+  margin: 100px 100px 100px 100px;
 }
 
 #evaluation-form {
@@ -68,10 +68,6 @@ main {
   flex-direction: column;
   width: 675px;
   order: 1;
-  padding: 20px;
-  border: 2px solid rgb(50, 167, 145);
-  border-radius: 0.5em;
-  background-color: rgb(221, 243, 239);
 }
 
 #trybewarts-forms-logo {
@@ -80,89 +76,9 @@ main {
   order: 2;
 }
 
-/* text inputs */
 .name-lastname , .email-house {
   display: flex;
   flex-direction: row;
-}
-
-.name-lastname input , .email-house input {
-  width: 300px;
-  border: none;
-  border-radius: 0.3em;
-  padding: 10px;
-  margin: 8px;
-}
-
-.email-house select {
-  width: 320px;
-  border: none;
-  border-radius: 0.3em;
-  padding: 10px;
-  margin: 8px;
-  background-color: white;
-}
-
-/* radio buttons família */
-.family-container {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-/* input checkboxes - o que vc quer aprender */
-.learning-container {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-/* inputs radio buttons - como vc avalia a trybe... */
-.rate-container {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-/* input textarea 'deixe seu comentário...' */
-#textarea {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  width: 98%;
-  border: none;
-  border-radius: 0.3em;
-  margin-bottom: 10px;
-}
-
-.textarea {
-  margin: 10px;
-}
-
-/* input checkbox agreement */
-.agreement-container {
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-/* botão enviar */
-#submit-btn {
-  margin: 8px 0 0 10px;
-  background-color: rgb(50, 167, 145);
-  border: none;
-  border-radius: 0.3em;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-}
-
-#submit-btn:disabled {
-  margin: 8px 0 0 10px;
-  background-color: rgb(141, 182, 174);
-  border: none;
-  border-radius: 0.3em;
-  padding: 10px;
-  color: white;
 }
 
 /* footer */
@@ -170,4 +86,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  
 }
