@@ -30,6 +30,7 @@
         <img id='trybewarts-forms-logo' src="/images/trybewarts-colored.svg">
         <form id="evaluation-form">
             <!-- nome e sobrenome -->
+            <section class="inputs-text-container">
             <div class="name-lastname">
                 <input required type="text" id="input-name" name="nome" placeholder="Nome" />
                 <input required type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome" />
@@ -44,6 +45,7 @@
                     <option value="Pytherina" text="Pytherina" id="pytherina-house">Pytherina</option>
                 </select>
             </div>
+            </section>
             <!-- qual sua família? -->
             <label id="label-family">Qual sua família?</label>
             <label for="Frontend">
@@ -76,6 +78,7 @@
                 <input type="checkbox" value="Python"> Python
             </label>
             <label id="label-rate">Como você avalia a Trybewarts?</label>
+            <div class="rate-container">
             <!-- radio buttons de 1 a 10 -->
             <label for="um">
                 <input id="um" type="radio" name="rate" value="1">1
@@ -105,8 +108,9 @@
                 <input id="nove" type="radio" name="rate" value="9">9
             </label>
             <label for="dez">
-                <input tid="dez" ype="radio" name="rate" value="10">10
+                <input id="dez" type="radio" name="rate" value="10">10
             </label>
+        </div>
             <label class="textarea">Deixe seu comentário:
                 <textarea id="textarea" type="text" maxlength="500"></textarea>
             </label>

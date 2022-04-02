@@ -63,17 +63,43 @@ main {
   margin: 100px;
 }
 
+/* form main */
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
   order: 1;
+  background-color: beige;
+  justify-content: space-around;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
   align-self: flex-end;
   order: 2;
+}
+
+.inputs-text-container {
+  max-width: 60%;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.inputs-text-container [type='text'] {
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(50, 167, 145);
+  border-radius: 0.3em;  
+}
+
+.inputs-text-container #house {
+  padding: 5px 46px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid rgb(50, 167, 145);
+  border-radius: 0.3em;  
 }
 
 .name-lastname , .email-house {
