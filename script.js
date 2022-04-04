@@ -52,13 +52,22 @@ function getSelected() {
   for (let i = 0; i < family.length; i += 1) {
     if (family[i].checked === true) {
       familiaEscolhida = family[i].value;
-
     }
   }
   return familiaEscolhida;
-
 }
 
+function getChecked() {
+  const subject = document.querySelectorAll('.subject');
+  const materiasEscolhidas = [];
+
+  for (let i = 0; i < subject.length; i += 1) {
+    if (subject[i].checked === true) {
+      materiasEscolhidas.push(subject[i].value);
+    }
+  }
+  return materiasEscolhidas;
+}
 
 function trocaValores(event) {
   event.preventDefault();
@@ -66,22 +75,18 @@ function trocaValores(event) {
   const lastname = document.getElementById('input-lastname');
   const email = document.getElementById('input-email');
   const casa = document.getElementById('house');
-  // const familia = document.getElementById('');
-  // const materias = document.querySelectorAll('');
-  // const avaliacao = document.querySelectorAll('');
   const observacoes = document.getElementById('textarea');
   conteudoForm.innerText = `Nome: ${name.value} ${lastname.value}
     Email: ${email.value}
     Casa: ${casa.value} 
     Família: ${getSelected()}
+    Matérias: ${getChecked()}
     Observações: ${observacoes.value}`;
   console.log(conteudoForm);
 }
 
-// Família: ${getSelected()}
-
 btnEnviar.addEventListener('click', trocaValores);
 
-// falta: família, matéria, rate e observação Matérias: ${materias.checked}
+// falta: família, matéria, rate e observação Família: ${getSelected()}
 
 // Avaliação: ${avaliacao.checked}
