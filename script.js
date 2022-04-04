@@ -48,7 +48,6 @@ contaCaracteres();
 function getSelected() {
   const family = document.querySelectorAll('.family');
   let familiaEscolhida = '';
-  console.log(family);
   for (let i = 0; i < family.length; i += 1) {
     if (family[i].checked === true) {
       familiaEscolhida = family[i].value;
@@ -57,13 +56,24 @@ function getSelected() {
   return familiaEscolhida;
 }
 
+function getSelectedRate() {
+  const rate = document.querySelectorAll('.rate');
+  let ratingValue = '';
+  for (let i = 0; i < rate.length; i += 1) {
+    if (rate[i].checked === true) {
+      ratingValue = rate[i].value;
+    }
+  }
+  return ratingValue;
+}
+
 function getChecked() {
   const subject = document.querySelectorAll('.subject');
   const materiasEscolhidas = [];
 
   for (let i = 0; i < subject.length; i += 1) {
     if (subject[i].checked === true) {
-      materiasEscolhidas.push(subject[i].value);
+      materiasEscolhidas.push(` ${subject[i].value}`);
     }
   }
   return materiasEscolhidas;
@@ -81,6 +91,7 @@ function trocaValores(event) {
     Casa: ${casa.value} 
     Família: ${getSelected()}
     Matérias: ${getChecked()}
+    Avaliação: ${getSelectedRate()}
     Observações: ${observacoes.value}`;
   console.log(conteudoForm);
 }
