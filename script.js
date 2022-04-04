@@ -3,7 +3,10 @@ const inputSenha = document.getElementById('senha');
 const btnHeader = document.getElementById('btnHeader');
 const checkAcordo = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
-// const counter = document.getElementById('counter');
+const conteudoForm = document.getElementById('evaluation-form');
+// const name = document.getElementById('input-name');
+// const lastName = document.getElementById('input-name');
+
 
 // 3 Caso o email seja "tryber@teste.com" e a senha seja "123456" será emitido um alerta contendo o texto "Olá, Tryber!"
 // Em todos os outro casos deverá ser emitido um alerta contendo o texto "Email ou senha inválidos."
@@ -39,3 +42,42 @@ function contaCaracteres() {
 }
 
 contaCaracteres();
+
+// 21
+
+function getSelected() {
+  const family = document.querySelector('label-family');
+  const familiaEscolhida = '';
+  for (i = 0; i < family.length; i += 1) {
+    if (family[i].checked === 'true') {
+      family[i].value = familiaEscolhida;
+      console.log('entrei');
+    }
+  }
+  return familiaEscolhida;
+}
+
+function trocaValores(event) {
+  event.preventDefault();
+  const name = document.getElementById('input-name');
+  const lastname = document.getElementById('input-lastname');
+  const email = document.getElementById('input-email');
+  const casa = document.getElementById('house');
+  // const familia = document.querySelectorAll('');
+  // const materias = document.querySelectorAll('');
+  // const avaliacao = document.querySelectorAll('');
+  const observacoes = document.getElementById('textarea');
+  conteudoForm.innerText =
+    `Nome: ${name.value} ${lastname.value}
+    Email: ${email.value}
+    Casa: ${casa.value} 
+    Família: ${getSelected()}
+    Observações: ${observacoes.value}`;
+  console.log(conteudoForm);
+}
+
+btnEnviar.addEventListener('click', trocaValores);
+
+//falta: família, matéria, rate e observação Matérias: ${materias.checked}
+
+// Avaliação: ${avaliacao.checked}
