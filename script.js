@@ -97,7 +97,3 @@ function trocaValores(event) {
 }
 
 btnEnviar.addEventListener('click', trocaValores);
-
-// falta: família, matéria, rate e observação Família: ${getSelected()}
-
-// Avaliação: ${avaliacao.checked}
