@@ -3,6 +3,7 @@ const inputSenha = document.getElementById('senha');
 const btnHeader = document.getElementById('btnHeader');
 const checkAcordo = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
+// const counter = document.getElementById('counter');
 
 // 3 Caso o email seja "tryber@teste.com" e a senha seja "123456" será emitido um alerta contendo o texto "Olá, Tryber!"
 // Em todos os outro casos deverá ser emitido um alerta contendo o texto "Email ou senha inválidos."
@@ -28,3 +29,13 @@ function verificaAcordo() {
 }
 
 checkAcordo.addEventListener('click', verificaAcordo);
+
+// 20 criar um counter referência: https://stackoverflow.com/questions/27211205/count-characters-in-textfield-on-keydown-event
+
+function contaCaracteres() {
+  const texto = document.getElementById('textarea').value;
+  const counterTexto = texto.length;
+  document.getElementById('counter').innerHTML = 500 - counterTexto;
+}
+
+contaCaracteres();

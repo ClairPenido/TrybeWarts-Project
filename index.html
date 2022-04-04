@@ -119,7 +119,8 @@
             </section>
             <section class="textarea-container">
                 <label class="textarea">Deixe seu comentário:
-                    <br> <textarea id="textarea" type="text" maxlength="500"></textarea>
+                    <br> <textarea onkeyup="contaCaracteres()" id="textarea" type="text" maxlength="500"></textarea>
+                    <span id="counter"> </span>
                 </label>
             </section>
             <section class="agreement-container">
