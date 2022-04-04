@@ -4,9 +4,6 @@ const btnHeader = document.getElementById('btnHeader');
 const checkAcordo = document.getElementById('agreement');
 const btnEnviar = document.getElementById('submit-btn');
 const conteudoForm = document.getElementById('evaluation-form');
-// const name = document.getElementById('input-name');
-// const lastName = document.getElementById('input-name');
-
 
 // 3 Caso o email seja "tryber@teste.com" e a senha seja "123456" será emitido um alerta contendo o texto "Olá, Tryber!"
 // Em todos os outro casos deverá ser emitido um alerta contendo o texto "Email ou senha inválidos."
