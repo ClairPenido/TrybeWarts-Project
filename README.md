@@ -7,7 +7,7 @@
 <p> <b> 🫂 Projeto desenvolvido em grupo, juntamente à: 🫂  </b> </p>
 
 <ul>
-<li> Vitória Calvi Meinerz <a href="https://github.com/calvitoria">Vitoria - GitHub</a> </li>
+<li> Vitória Calvi Meinerz: <a href="https://github.com/calvitoria">Vitoria - GitHub</a> </li>
 </ul>
 
 <p> <b> Linguagens utilizadas: </b> </p>
