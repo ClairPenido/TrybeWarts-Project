@@ -1,10 +1,29 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h2> <b> TrybeWarts </b> </h2>
+
+<p> <b> Objetivo do projeto: </b> </p>
+
+<p> Desenvolver uma página de formulário da Escola de Magia de Trybewarts, em que ,poderão ser enviados, feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico! Mas não se preocupe se não tiver conhecimento sobre o universo da obra original, pois criamos nossa própria versão da Escola de Bruxaria! Divirta-se </p>
+
+<p> <b> 🫂 Projeto desenvolvido em grupo, juntamente à: 🫂  </b> </p>
+
+<ul>
+<li> Vitória Calvi Meinerz [VitoriaGit](https://github.com/calvitoria) </li>
+</ul>
+
+<p> <b> Linguagens utilizadas: </b> </p>
+
+<p> javascript, css e html </p>
+
+<p> <b> Habilidades desenvolvidas: </b> </p>
+
+<ul>
+<li>Criar formulários em HTML;</li>
+<li>Utilizar CSS Flexbox para criar layouts flexíveis;</li>
+<li>Criar regras CSS específicas para serem aplicadas a dispositivos móveis;</li>
+<li>Construir páginas que alteram o seu layout de acordo com a orientação da tela;</li>
+</ul>
+
+
+<p> Link para olhar e experimentar a aplicação: </p> <br>
+
+[TrybeWarts](https://dashing-crisp-0ffa7e.netlify.app/)
