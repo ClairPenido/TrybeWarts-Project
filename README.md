@@ -7,7 +7,7 @@
 <p> <b> 🫂 Projeto desenvolvido em grupo, juntamente à: 🫂  </b> </p>
 
 <ul>
-<li> Vitória Calvi Meinerz [VitoriaGit](https://github.com/calvitoria) </li>
+<li> Vitória Calvi Meinerz <a href="https://github.com/calvitoria">Vitoria - GitHub</a> </li>
 </ul>
 
 <p> <b> Linguagens utilizadas: </b> </p>
@@ -24,6 +24,6 @@
 </ul>
 
 
-<p> Link para olhar e experimentar a aplicação: </p> <br>
+<p> <b>Link para olhar e experimentar a aplicação: </p> </b> <br>
 
 [TrybeWarts](https://dashing-crisp-0ffa7e.netlify.app/)
